@@ -24,20 +24,26 @@ Vi have 2 primary mode:
 
 ### Movement by Text Blocks
 
-* `w` Move forward one world.
-* `W` Move forward one world.
-* `b` Move backward one world.
-* `B` Move backward one world.
+* `w` Move forward one word.
+* `W` Move forward one word.
+* `b` Move backward one word.
+* `B` Move backward one word.
 
 ## Editing
 
 * `i` for insert text.
 * `a` for append text.
 * `c` for change text.
-* `d` for delete text.
+* `d` for deleted text.
 * `p` for put text.
 * `y` for yank text.
 * `x` for delete a single character.
 * `r` for replace.
 * `dd` for apply the command to entire line.
 
+## Changing Text
+
+* `cw` change word
+* `c2b` change back two words.
+* `c$` change to the end of the line.
+* `c0` change to the begining of the line.
